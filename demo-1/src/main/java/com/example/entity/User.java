@@ -6,6 +6,9 @@ public class User {
 	private String userName;
 	private String passWord;
 	private String realName;
+	
+	private String[] interest; 
+	
 	public Integer getId() {
 		return id;
 	}
@@ -29,6 +32,16 @@ public class User {
 	}
 	public void setRealName(String realName) {
 		this.realName = realName;
+	}
+	
+	
+	
+	
+	public String[] getInterest() {
+		return interest;
+	}
+	public void setInterest(String[] interest) {
+		this.interest = interest;
 	}
 	@Override
 	public String toString() {
